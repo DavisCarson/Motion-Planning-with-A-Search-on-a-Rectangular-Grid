@@ -35,24 +35,24 @@ The A* search starts by creating a randomized grid and attempts to find the opti
 #### Sample Output
 ```bash
 -----Easy trial 1-----
-Grid:
 1111111111111111
 1              1
-1   111111     1
-1      1       1
-1   1     1    1
-1   1  111     1
 1              1
+1  1         1 1
+1     1     1  1
+1     1   1    1
+1           11 1
 1111111111111111
 
 Found goal! :)
-Solution Path:
-************    1
-*    111111*    1
-*      1   *    1
-*   1     1*    1
-*   1  111 *    1
-************    1
+1111111111111111
+1***********   1
+1          *   1
+1  1       * 1 1
+1     1    *1  1
+1     1   1****1
+1           11*1
+1111111111111111
 ```
 
 ### How to Use
